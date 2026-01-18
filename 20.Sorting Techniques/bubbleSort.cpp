@@ -38,16 +38,16 @@ int main() {
     int array[] = {64, 34, 25, 12, 22, 11, 90};
     int n = sizeof(array) / sizeof(array[0]);
 
-    cout << "Original array: ";
+    //cout << "Original array: ";
     for (int i = 0; i < n; i++) {
-        cout << array[i] << " ";
+        //cout << array[i] << " ";
     }
 
     bubbleSort(array, n);
 
-    cout << "\nSorted array: ";
+    //cout << "\nSorted array: ";
     for (int i = 0; i < n; i++) {
-        cout << array[i] << " ";
+        //cout << array[i] << " ";
     }
 
     return 0;
